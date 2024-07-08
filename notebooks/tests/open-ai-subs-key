@@ -1,0 +1,9 @@
+import requests
+
+url = "https://your-api-endpoint.com/resource"
+headers = {
+    "Ocp-Apim-Subscription-Key": "your_subscription_key_here"
+}
+
+response = requests.get(url, headers=headers)
+print(response.json())
