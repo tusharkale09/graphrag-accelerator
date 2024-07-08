@@ -2,7 +2,7 @@ import wikipediaapi
 import requests
 
 # Define your user agent string
-user_agent = 'https://cbippocjune2024.azure-api.net/; tushar.kale@scania.com'
+user_agent = 'CBIPPOCBOT/1.0 (https://cbippocjune2024.azure-api.net/; tushar.kale@scania.com)'
 
 # Create a requests session and set the user agent
 session = requests.Session()
